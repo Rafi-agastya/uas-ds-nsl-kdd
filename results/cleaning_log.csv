@@ -1,0 +1,15 @@
+pemeriksaan,hasil,status,tindakan
+Missing value (seluruh kolom),0 sel kosong,OK,-
+Baris duplikat utuh,0 baris,OK,-
+Tipe data (numerik/kategorikal),"numerik=True, kategorikal=True",OK,-
+Kolom *_rate dalam rentang 0..1,"15 kolom diperiksa, pelanggaran: 0",OK,-
+Nilai negatif pada kolom numerik,kolom: tidak ada,OK,-
+Kolom biner hanya bernilai 0/1,"melanggar: {'su_attempted': [0, 1, 2]}",TEMUAN,-
+Spasi berlebih pada kolom kategorikal,tidak ada,OK,-
+Nilai protocol_type,"['icmp', 'tcp', 'udp']",OK,-
+Konsistensi jenis_serangan -> kategori,0 baris tidak cocok,OK,-
+Konsistensi kategori -> target_biner,0 baris tidak cocok,OK,-
+Baris dengan fitur identik tetapi label berbeda,"8 kelompok (16 baris); 5 lintas kategori, 3 dalam kategori sama",TEMUAN,"Dibiarkan, dicatat sebagai keterbatasan"
+Label/metadata tidak ada di daftar fitur,fitur=41 kolom,OK,-
+Perbaikan su_attempted,9 baris bernilai 2 diubah menjadi 1,SELESAI,Recode 2 -> 1
+Buang konflik label lintas kategori,10 baris dibuang,SELESAI,Drop

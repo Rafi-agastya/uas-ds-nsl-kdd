@@ -1,0 +1,16 @@
+,proporsi_nol
+num_outbound_cmds,1.0
+is_host_login,0.9996
+su_attempted,0.9995
+urgent,0.9995
+land,0.9991
+num_shells,0.9987
+num_access_files,0.9969
+root_shell,0.9964
+num_file_creations,0.9962
+num_root,0.9949
+num_failed_logins,0.9786
+num_compromised,0.9724
+wrong_fragment,0.9702
+is_guest_login,0.9601
+hot,0.9281

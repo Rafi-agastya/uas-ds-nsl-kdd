@@ -1,0 +1,6 @@
+kategori,jumlah,persen
+Normal,9001,36.0
+DoS,7500,30.0
+Probe,4500,18.0
+R2L,3880,15.52
+U2R,119,0.48
