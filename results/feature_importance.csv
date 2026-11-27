@@ -1,0 +1,21 @@
+model,feature,importance,rank
+Extra Trees,src_bytes,0.06866495588327928,1
+Extra Trees,service_http,0.05113102399627622,2
+Extra Trees,dst_host_srv_count,0.04262137716343475,3
+Extra Trees,logged_in,0.04112531750277106,4
+Extra Trees,dst_host_same_src_port_rate,0.03868929864884503,5
+Extra Trees,dst_bytes,0.03565533611525243,6
+Extra Trees,serror_rate,0.0330817165512587,7
+Extra Trees,dst_host_diff_srv_rate,0.031836888673170013,8
+Extra Trees,flag_SF,0.03174176543600639,9
+Extra Trees,dst_host_same_srv_rate,0.031159544092328725,10
+XGBoost,service_eco_i,0.07904843240976334,1
+XGBoost,wrong_fragment,0.07275912910699844,2
+XGBoost,num_failed_logins,0.0654744952917099,3
+XGBoost,service_smtp,0.06497566401958466,4
+XGBoost,srv_count,0.06011579930782318,5
+XGBoost,service_http,0.05795477330684662,6
+XGBoost,diff_srv_rate,0.04772863909602165,7
+XGBoost,srv_diff_host_rate,0.04602035880088806,8
+XGBoost,src_bytes,0.039117053151130676,9
+XGBoost,service_ecr_i,0.03510154411196709,10

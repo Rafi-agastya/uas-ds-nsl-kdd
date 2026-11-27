@@ -1,0 +1,197 @@
+{
+  "model_name": "Extra Trees",
+  "target": "kategori",
+  "classes": [
+    "Normal",
+    "DoS",
+    "Probe",
+    "R2L",
+    "U2R"
+  ],
+  "best_params": {
+    "clf__n_estimators": 200,
+    "clf__min_samples_leaf": 1,
+    "clf__max_depth": null
+  },
+  "train": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "roc_auc_ovr": 1.0,
+    "attack_recall_macro": 1.0,
+    "classification_report": {
+      "Normal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7197.0
+      },
+      "DoS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5998.0
+      },
+      "Probe": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3600.0
+      },
+      "R2L": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3102.0
+      },
+      "U2R": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 95.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 19992.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 19992.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        7197,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5998,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3600,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3102,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        95
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9923969587835134,
+    "macro_f1": 0.9507036456079575,
+    "roc_auc_ovr": 0.9994875838295375,
+    "attack_recall_macro": 0.9333853046594982,
+    "classification_report": {
+      "Normal": {
+        "precision": 0.9922005571030641,
+        "recall": 0.9899944413563091,
+        "f1-score": 0.9910962715637173,
+        "support": 1799.0
+      },
+      "DoS": {
+        "precision": 0.9986666666666667,
+        "recall": 0.9986666666666667,
+        "f1-score": 0.9986666666666667,
+        "support": 1500.0
+      },
+      "Probe": {
+        "precision": 0.9966703662597114,
+        "recall": 0.9977777777777778,
+        "f1-score": 0.997223764575236,
+        "support": 900.0
+      },
+      "R2L": {
+        "precision": 0.9807692307692307,
+        "recall": 0.9870967741935484,
+        "f1-score": 0.9839228295819936,
+        "support": 775.0
+      },
+      "U2R": {
+        "precision": 0.8181818181818182,
+        "recall": 0.75,
+        "f1-score": 0.782608695652174,
+        "support": 24.0
+      },
+      "accuracy": 0.9923969587835134,
+      "macro avg": {
+        "precision": 0.9572977277960982,
+        "recall": 0.9447071319988604,
+        "f1-score": 0.9507036456079575,
+        "support": 4998.0
+      },
+      "weighted avg": {
+        "precision": 0.99233786501494,
+        "recall": 0.9923969587835134,
+        "f1-score": 0.9923582197444052,
+        "support": 4998.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1781,
+        2,
+        2,
+        12,
+        2
+      ],
+      [
+        1,
+        1498,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        898,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        765,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        3,
+        18
+      ]
+    ]
+  },
+  "cv_macro_f1": 0.9523500457036922,
+  "overfit_gap_macro_f1": 0.049296,
+  "overfit_gap_accuracy": 0.007603,
+  "train_time_s": 44.8458,
+  "predict_time_s": 0.2651
+}

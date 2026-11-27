@@ -1,0 +1,197 @@
+{
+  "model_name": "XGBoost",
+  "target": "kategori",
+  "classes": [
+    "Normal",
+    "DoS",
+    "Probe",
+    "R2L",
+    "U2R"
+  ],
+  "best_params": {
+    "clf__n_estimators": 350,
+    "clf__max_depth": 8,
+    "clf__learning_rate": 0.1
+  },
+  "train": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "roc_auc_ovr": 1.0,
+    "attack_recall_macro": 1.0,
+    "classification_report": {
+      "Normal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7197.0
+      },
+      "DoS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5998.0
+      },
+      "Probe": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3600.0
+      },
+      "R2L": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3102.0
+      },
+      "U2R": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 95.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 19992.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 19992.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        7197,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5998,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3600,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3102,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        95
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9925970388155262,
+    "macro_f1": 0.964572421380506,
+    "roc_auc_ovr": 0.9997385334505674,
+    "attack_recall_macro": 0.9538960573476704,
+    "classification_report": {
+      "Normal": {
+        "precision": 0.9910962715637173,
+        "recall": 0.9899944413563091,
+        "f1-score": 0.9905450500556173,
+        "support": 1799.0
+      },
+      "DoS": {
+        "precision": 0.9966733200266135,
+        "recall": 0.9986666666666667,
+        "f1-score": 0.9976689976689976,
+        "support": 1500.0
+      },
+      "Probe": {
+        "precision": 0.9977777777777778,
+        "recall": 0.9977777777777778,
+        "f1-score": 0.9977777777777778,
+        "support": 900.0
+      },
+      "R2L": {
+        "precision": 0.9858064516129033,
+        "recall": 0.9858064516129033,
+        "f1-score": 0.9858064516129033,
+        "support": 775.0
+      },
+      "U2R": {
+        "precision": 0.8695652173913043,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.851063829787234,
+        "support": 24.0
+      },
+      "accuracy": 0.9925970388155262,
+      "macro avg": {
+        "precision": 0.9681838076744633,
+        "recall": 0.961115734149398,
+        "f1-score": 0.964572421380506,
+        "support": 4998.0
+      },
+      "weighted avg": {
+        "precision": 0.9925693753102119,
+        "recall": 0.9925970388155262,
+        "f1-score": 0.9925809470725181,
+        "support": 4998.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1781,
+        5,
+        2,
+        10,
+        1
+      ],
+      [
+        2,
+        1498,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        898,
+        0,
+        0
+      ],
+      [
+        9,
+        0,
+        0,
+        764,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        20
+      ]
+    ]
+  },
+  "cv_macro_f1": 0.9526986597480445,
+  "overfit_gap_macro_f1": 0.035428,
+  "overfit_gap_accuracy": 0.007403,
+  "train_time_s": 39.0156,
+  "predict_time_s": 0.3872
+}
