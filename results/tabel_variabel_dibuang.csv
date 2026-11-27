@@ -1,0 +1,15 @@
+nama_kolom,proporsi_nol,alasan_dibuang
+land,0.99908,"Proporsi nilai nol sangat tinggi (99.91% > 99,5%), varians nyaris nol."
+urgent,0.99948,"Proporsi nilai nol sangat tinggi (99.95% > 99,5%), varians nyaris nol."
+root_shell,0.996439,"Proporsi nilai nol sangat tinggi (99.64% > 99,5%), varians nyaris nol."
+su_attempted,0.99952,"Proporsi nilai nol sangat tinggi (99.95% > 99,5%), varians nyaris nol."
+num_file_creations,0.996158,"Proporsi nilai nol sangat tinggi (99.62% > 99,5%), varians nyaris nol."
+num_shells,0.998719,"Proporsi nilai nol sangat tinggi (99.87% > 99,5%), varians nyaris nol."
+num_access_files,0.996919,"Proporsi nilai nol sangat tinggi (99.69% > 99,5%), varians nyaris nol."
+num_outbound_cmds,1.0,"Konstan (100% bernilai 0 pada seluruh data), tidak memberikan informasi pembeda."
+is_host_login,0.99956,"Proporsi nilai nol sangat tinggi (99.96% > 99,5%), varians nyaris nol."
+num_root,0.994918,Korelasi sangat tinggi (redundan) dengan fitur sejenis yang dipertahankan.
+srv_serror_rate,0.826931,Korelasi sangat tinggi (redundan) dengan fitur sejenis yang dipertahankan.
+dst_host_srv_serror_rate,0.787635,Korelasi sangat tinggi (redundan) dengan fitur sejenis yang dipertahankan.
+srv_rerror_rate,0.827811,Korelasi sangat tinggi (redundan) dengan fitur sejenis yang dipertahankan.
+dst_host_srv_rerror_rate,0.764266,Korelasi sangat tinggi (redundan) dengan fitur sejenis yang dipertahankan.
